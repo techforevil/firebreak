@@ -8,9 +8,94 @@
 {% block content %}
 
   <div class="govuk-grid-row">
-    <div class="govuk-grid-column-two-thirds">
+    <div class="govuk-grid-column-full">
+
+
       <h1 class="govuk-heading-xl">
-        Current negotiations
+        Welcome, James B.!
+      </h1>
+
+      <h2 class="govuk-heading-l">Items awaiting your review</h2>
+      <!--- tags: https://design-system.service.gov.uk/components/tag/ --->
+
+      <table class="govuk-table">
+      <thead class="govuk-table__head">
+        <tr class="govuk-table__row">
+          <th scope="col" class="govuk-table__header">FTA</th>
+          <th scope="col" class="govuk-table__header">Item</th>
+          <th scope="col" class="govuk-table__header">Requested by</th>
+          <th scope="col" class="govuk-table__header">Due date</th>
+          <th scope="col" class="govuk-table__header">Action</th>
+
+        </tr>
+      </thead>
+      <tbody class="govuk-table__body">
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">Australia</td>
+          <td class="govuk-table__cell">Chapter 2: Section I - Live animals; animal products</td>
+          <td class="govuk-table__cell">Winnie T-P</td>
+          <td class="govuk-table__cell"><strong class="govuk-tag govuk-tag--yellow">15 April (6 days)</strong></td>
+          <td class="govuk-table__cell"><button class="govuk-button govuk-button--secondary" data-module="govuk-button">Review</button></td>
+        </tr>
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">Canada</td>
+          <td class="govuk-table__cell">Chapter 1: Initial Provisions and General Definitions</td>
+          <td class="govuk-table__cell">Darth V</td>
+          <td class="govuk-table__cell"><strong class="govuk-tag govuk-tag--red">8 April (overdue)</strong></td>
+          <td class="govuk-table__cell"><button class="govuk-button govuk-button--secondary" data-module="govuk-button">Review</button></td>
+        </tr>
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">New Zealand</td>
+          <td class="govuk-table__cell">Chapter 13: Investment</td>
+          <td class="govuk-table__cell">Winnie T-P</td>
+          <td class="govuk-table__cell"><strong class="govuk-tag govuk-tag--green">1 May (> 2 weeks)</strong></td>
+          <td class="govuk-table__cell"><button class="govuk-button govuk-button--secondary" data-module="govuk-button">Review</button></td>
+        </tr>
+
+      </tbody>
+    </table>
+
+      <h2 class="govuk-heading-l">Your requests</h2>
+
+
+      <table class="govuk-table">
+      <thead class="govuk-table__head">
+        <tr class="govuk-table__row">
+          <th scope="col" class="govuk-table__header">FTA</th>
+          <th scope="col" class="govuk-table__header">Item</th>
+          <th scope="col" class="govuk-table__header">Requested from</th>
+          <th scope="col" class="govuk-table__header">Status</th>
+
+        </tr>
+      </thead>
+      <tbody class="govuk-table__body">
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">Australia</td>
+          <td class="govuk-table__cell">Chapter 12: Telecommunications</td>
+          <td class="govuk-table__cell">Australia Country Team</td>
+          <td class="govuk-table__cell"><strong class="govuk-tag govuk-tag--yellow">15 April (6 days)</strong></td>
+
+        </tr>
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">Canada</td>
+          <td class="govuk-table__cell">Chapter 8: Cross Border Trade in Services</td>
+          <td class="govuk-table__cell">Canada FTA Team</td>
+          <td class="govuk-table__cell"><strong class="govuk-tag govuk-tag--red">8 April (overdue)</strong></td>
+
+        </tr>
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">New Zealand</td>
+          <td class="govuk-table__cell">Chapter 2: Section XX - Miscellaneous manufactured articles </td>
+          <td class="govuk-table__cell">Darth V</td>
+          <td class="govuk-table__cell"><strong class="govuk-tag govuk-tag--green">1 May (> 2 weeks)</strong></td>
+        </tr>
+
+      </tbody>
+    </table>
+<br><br>
+
+      <h1 class="govuk-heading-xl">
+        All current negotiations
       </h1>
 
       <p>

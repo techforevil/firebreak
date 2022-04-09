@@ -7,10 +7,23 @@
 
 {% block content %}
 
-  <!--- add breadcrumb? -->
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="index.html">Home</a>
+    </li>
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="australia-main.html">Australia FTA</a>
+    </li>
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="#">Chapter 2: Trade in Goods</a>
+    </li>
+
+  </ol>
+</div>
 
   <div class="govuk-grid-row">
-    <div class="govuk-grid-column-two-thirds">
+    <div class="govuk-grid-column-full">
       <h1 class="govuk-heading-xl">
         Australia FTA
         <span class="govuk-caption-xl">Chapter 2: Trade in Goods</span>
@@ -28,11 +41,11 @@
         </tr>
         <tr class="govuk-table__row">
           <th scope="row" class="govuk-table__header">Current status</th>
-          <td class="govuk-table__cell">Live</td>
+          <td class="govuk-table__cell">Embargoed</td>
         </tr>
         <tr class="govuk-table__row">
           <th scope="row" class="govuk-table__header">Upcoming</th>
-          <td class="govuk-table__cell">New policy on 1 May 2022</td>
+          <td class="govuk-table__cell">Section XII to be confirmed in July 2022</td>
         </tr>
         <tr class="govuk-table__row">
           <th scope="row" class="govuk-table__header">Source</th>
@@ -61,11 +74,135 @@
 
 <p> The UK has agreed to liberalise tariffs on most Australian exports. We have protected sensitive UK industries through measures including staged liberalisation, tariff rate quotas, and product specific safeguards for beef and sheepmeat. A general bilateral safeguard mechanism will provide further protections if they face serious injury from increased imports as a direct consequence of the free trade agreement (FTA). This applies to all products.</p>
 
-<button class="govuk-button govuk-button--secondary" data-module="govuk-button">
-  Edit Details
+<button class="govuk-button govuk-button" data-module="govuk-button">
+  Edit the Details section
 </button>
 
   <h2 class="govuk-heading-l">Schedule of Tariff Commitment of the United Kingdom</h2>
+
+  <table class="govuk-table">
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Section</th>
+      <th scope="col" class="govuk-table__header">Status</th>
+      <th scope="col" class="govuk-table__header">Last update</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+
+    <!--- tags: https://design-system.service.gov.uk/components/tag/ --->
+
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell"><a href="australia-goods-section1.html">Section I - Live animals; animal products</a></td>
+      <td class="govuk-table__cell"><strong class="govuk-tag govuk-tag--yellow">Ongoing</strong></td>
+      <td class="govuk-table__cell">2 March 2022</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Section II - Vegetable products </td>
+      <td class="govuk-table__cell"><strong class="govuk-tag govuk-tag--green">Finished</strong></td>
+      <td class="govuk-table__cell">2 March 2022</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Section III - Animal or vegetable fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes </td>
+      <td class="govuk-table__cell"><strong class="govuk-tag govuk-tag--red">Not started</strong></td>
+      <td class="govuk-table__cell">2 March 2022</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Section IV - Prepared foodstuffs; beverages, spirits and vinegar; tobacco and manufactured tobacco substitutes </td>
+      <td class="govuk-table__cell"><strong class="govuk-tag govuk-tag--green">Finished</strong></td>
+      <td class="govuk-table__cell">2 March 2022</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Section V - Mineral products </td>
+      <td class="govuk-table__cell"><strong class="govuk-tag govuk-tag--green">Finished</strong></td>
+      <td class="govuk-table__cell">2 March 2022</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Section VI - Products of the chemical or allied industries </td>
+      <td class="govuk-table__cell"><strong class="govuk-tag govuk-tag--green">Finished</strong></td>
+      <td class="govuk-table__cell">2 March 2022</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Section VII - Plastics and articles thereof; rubber and articles thereof </td>
+      <td class="govuk-table__cell"><strong class="govuk-tag govuk-tag--green">Finished</strong></td>
+      <td class="govuk-table__cell">2 March 2022</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Section VIII - Raw hides and skins, leather, furskins and articles thereof; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silkworm gut) </td>
+      <td class="govuk-table__cell"><strong class="govuk-tag govuk-tag--green">Finished</strong></td>
+      <td class="govuk-table__cell">2 March 2022</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Section IX - Wood and articles of wood; wood charcoal; cork and articles of cork; manufactures of straw, of esparto or of other plaiting materials; basket-ware and wickerwork </td>
+      <td class="govuk-table__cell"><strong class="govuk-tag govuk-tag--green">Finished</strong></td>
+      <td class="govuk-table__cell">2 March 2022</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Section X - Pulp of wood or of other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard; paper and paperboard and articles thereof </td>
+      <td class="govuk-table__cell"><strong class="govuk-tag govuk-tag--green">Finished</strong></td>
+      <td class="govuk-table__cell">2 March 2022</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Section XI - Textiles and textile articles </td>
+      <td class="govuk-table__cell"><strong class="govuk-tag govuk-tag--green">Finished</strong></td>
+      <td class="govuk-table__cell">2 March 2022</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell"> Section XII - Footwear, headgear, umbrellas, sun umbrellas, walking-sticks, seat-sticks, whips, riding-crops and parts thereof; prepared feathers and articles made therewith; artificial flowers; articles of human hair </td>
+      <td class="govuk-table__cell"><strong class="govuk-tag govuk-tag--red">Not started</strong></td>
+      <td class="govuk-table__cell">2 March 2022</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Section XIII - Articles of stone, plaster, cement, asbestos, mica or similar materials; ceramic products; glass and glassware</td>
+      <td class="govuk-table__cell"><strong class="govuk-tag govuk-tag--green">Finished</strong></td>
+      <td class="govuk-table__cell">2 March 2022</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Section XIV - Natural or cultured pearls, precious or semi-precious stones, precious metals, metals clad with precious metal and articles thereof; imitation jewellery; coins </td>
+      <td class="govuk-table__cell"><strong class="govuk-tag govuk-tag--green">Finished</strong></td>
+      <td class="govuk-table__cell">2 March 2022</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Section XV - Base metals and articles of base metal </td>
+      <td class="govuk-table__cell"><strong class="govuk-tag govuk-tag--green">Finished</strong></td>
+      <td class="govuk-table__cell">2 March 2022</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Section XVI - Machinery and mechanical appliances; electrical equipment; parts thereof, sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles </td>
+      <td class="govuk-table__cell"><strong class="govuk-tag govuk-tag--green">Finished</strong></td>
+      <td class="govuk-table__cell">2 March 2022</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Section XVII - Vehicles, aircraft, vessels and associated transport equipment </td>
+      <td class="govuk-table__cell"><strong class="govuk-tag govuk-tag--green">Finished</strong></td>
+      <td class="govuk-table__cell">2 March 2022</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Section XVIII - Optical, photographic, cinematographic, measuring, checking, precision, medical or surgical instruments and apparatus; clocks and watches; musical instruments; parts and accessories thereof </td>
+      <td class="govuk-table__cell"><strong class="govuk-tag govuk-tag--green">Finished</strong></td>
+      <td class="govuk-table__cell">2 March 2022</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Section XIX - Arms and ammunition; parts and accessories thereof </td>
+      <td class="govuk-table__cell"><strong class="govuk-tag govuk-tag--red">Not started</strong></td>
+      <td class="govuk-table__cell">2 March 2022</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Section XX - Miscellaneous manufactured articles </td>
+      <td class="govuk-table__cell"><strong class="govuk-tag govuk-tag--green">Finished</strong></td>
+      <td class="govuk-table__cell">2 March 2022</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Section XXI - Works of art, collectors' pieces and antiques</td>
+      <td class="govuk-table__cell"><strong class="govuk-tag govuk-tag--green">Finished</strong></td>
+      <td class="govuk-table__cell">2 March 2022</td>
+    </tr>
+
+  </tbody>
+</table>
+
+
+  <!--- accordion
       <div class="govuk-accordion" data-module="govuk-accordion" id="accordion-default">
     <div class="govuk-accordion__section ">
       <div class="govuk-accordion__section-header">
@@ -233,25 +370,6 @@ GBP/100kg</td>
 
 
 
-<!---
-      <h2 class="govuk-heading-m">About this page</h2>
-
-      <p>We recommend you add links to your prototype to this page, rather than delete it.
-        You'll find this page in the kit at '/app/views/index.html'.</p>
-
-      <p>You can change the service name by editing the file '/app/config.js'.</p>
-
-      <h2 class="govuk-heading-m">Examples and documentation</h2>
-
-      <ul class="govuk-list govuk-list--bullet">
-        <li>
-          <a href="/docs/tutorials-and-examples">Tutorials and templates</a>
-        </li>
-        <li>
-          <a href="https://design-system.service.gov.uk">GOV.UK Design System</a>
-        </li>
-      </ul>
-    </div>
     --->
   </div>
 
